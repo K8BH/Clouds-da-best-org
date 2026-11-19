@@ -23,3 +23,54 @@ body{
     line-height: 1.6;
     padding-bottom: 48px;
 }
+
+.topbar{
+    background-color:var(--card) ;
+    border-bottom: 3px var(--ink);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 24px;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.brand{
+    font-family: "Press Start 2P", monospace;
+    font-size: 0.9rem;
+}
+
+.status{
+    background-color: var(--accent-soft);
+    border: 2px solid var(--ink);
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding: 4px 10px;
+}
+
+.container{
+    max-width: 860px;
+    margin: 36px auto 0;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.card{
+    background-color: var(--card);
+    border: 3px solid var(--ink);
+    box-shadow: 5px 5px 0 var(--ink) ;
+    padding: 24px;
+}
+
+.tag{
+    display: inline-block;
+    background-color: var(--accent);
+    color: var(--card);
+    border: 2px solid var(--ink);
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding: 4px 10px;
+    margin-bottom: 16px;
+}
