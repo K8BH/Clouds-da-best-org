@@ -1,0 +1,25 @@
+:root{
+    --bg: #fce9ef;
+    --card: #fff7fa;
+    --accent: #ff6b9d;
+    --accent-soft: #ffd6e5;
+    --ink: #3b0d1d;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: var(--bg);
+    color: var(--ink);
+    font-family: "IBM Plex Mono", monospace;
+    line-height: 1.6;
+    padding-bottom: 48px;
+}
